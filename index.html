@@ -32,17 +32,9 @@
 	} catch(err) {}
 	</script>
 	<script>
-		
-
-		
-		function trackDownload(network) {
-			ga('send', 'pageview', "/" + network);
-		}
-		
 		document.getElementById("app_store_main").onclick = function() {
-			trackDownload("apple");
+			ga('send', 'pageview', "/apple");
 		}
-		
 	</script>
   </body>
 </html>
