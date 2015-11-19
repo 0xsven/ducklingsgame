@@ -572,15 +572,6 @@ th {
 
 
 
-
-
-
-
-
-
-
-
-
 * {
   box-sizing: border-box; }
 html {
@@ -610,6 +601,11 @@ a {
 	margin-top: 11rem;
 }
 
+.download_btns small{
+  font-style: italic;
+  display: block;
+}
+
 .download_btn {
 	display: inline-block;
 	text-indent: -9999em;
@@ -621,6 +617,72 @@ a {
 .download_btn_apple {
 	background-image: url(../img/app_store.svg);
 }
+
+
+
+.main-content .press-logo {
+  max-width: 350px;
+  width: 100%;
+}
+
+.follow-section {
+  text-align: center;
+  font-style: italic;
+  padding: 30px 0;
+  font-size: 120%;
+}
+
+.main-content .press-screenshot {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .main-content .press-screenshot {
+    width: 49.6%;
+  }
+}
+
+footer .menu {
+  text-align: center;
+}
+
+footer .small-text {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 80%; 
+}
+
+
+/* responsive youtube container:; */
+.video-container {
+    position: relative;
+    padding-bottom: 47.5%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .video-container {
+    padding-bottom: 52.65%;
+  }
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
 
 .btn {
   display: inline-block;
