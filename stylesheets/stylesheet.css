@@ -623,7 +623,7 @@ a {
 .btn:hover {
   color: #fff;
   text-decoration: none;
-  background-color: #1b763f }
+  background-color: transparent }
 
 @media screen and (min-width: 64em) {
   .btn {
