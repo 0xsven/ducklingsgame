@@ -90,9 +90,9 @@
 
       <div class="menu">
         <a href="/" class="btn">Home</a>
+        <a href="/press" class="btn">Presskit</a>
         <a href="/imprint" class="btn">Imprint</a>
         <a href="/privacy" class="btn">Privacy Policy</a>
-        <a href="/press" class="btn">Presskit</a>
       </div>
       
       <div class="small-text">
@@ -111,6 +111,10 @@
             pageTracker._trackPageview();
             } catch(err) {}
           </script>
-
+		  <script>
+		document.getElementById("app_store_main").onclick = function() {
+			ga('send', 'pageview', "/apple");
+		}
+	</script>
   </body>
 </html>

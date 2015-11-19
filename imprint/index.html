@@ -70,6 +70,10 @@
             pageTracker._trackPageview();
             } catch(err) {}
           </script>
-
+		  <script>
+		document.getElementById("app_store_main").onclick = function() {
+			ga('send', 'pageview', "/apple");
+		}
+	</script>
   </body>
 </html>
