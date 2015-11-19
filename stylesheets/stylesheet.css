@@ -567,12 +567,69 @@ th {
 
 
 
+
+
+
+
+* {
+  box-sizing: border-box; }
+html {
+	background: #1b763f url(../img/bg_main.png) 50% 0 repeat-y;
+	background-size: 100% auto;
+	height: 100%;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Rubik", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
+  background: transparent url(../img/top_bg2.png) 50% 0 no-repeat;
+  background-size: 100% auto;}
+.menu {
+	margin-top: 3rem;
+}
+a {
+  color: #eee;
+   }
+  a:hover {
+    color: #fff; }
+
+.download_btns {
+	margin-top: 11rem;
+}
+
+.download_btns small{
+  font-style: italic;
+  display: block;
+}
+
+.download_btn {
+	display: inline-block;
+	text-indent: -9999em;
+	height: 100px;
+	width: 300px;
+	background: transparent 50% 50% no-repeat;
+	background-size: contain;
+}
+.download_btn_apple {
+	background-image: url(../img/app_store.svg);
+}
+
+
+
 .main-content .press-logo {
   max-width: 350px;
   width: 100%;
 }
 
-
+.follow-section {
+  text-align: center;
+  font-style: italic;
+  padding: 30px 0;
+  font-size: 120%;
+}
 
 .main-content .press-screenshot {
   width: 100%;
@@ -626,33 +683,6 @@ footer .small-text {
 
 
 
-
-
-* {
-  box-sizing: border-box; }
-html {
-	background: #1b763f url(../img/bg_main.png) 50% 0 repeat-y;
-	background-size: 100% auto;
-	height: 100%;
-}
-body {
-  padding: 0;
-  margin: 0;
-  font-family: "Rubik", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #fff;
-  background: transparent url(../img/top_bg.png) 50% 0 no-repeat;
-  background-size: 100% auto;}
-.menu {
-	margin-top: 18rem;
-}
-a {
-  color: #eee;
-   }
-  a:hover {
-    color: #fff; }
-
 .btn {
   display: inline-block;
   margin-bottom: 1rem;
@@ -705,17 +735,19 @@ a {
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .page-header {
     padding: 3rem 0 1rem; }
-    .menu {
-	margin-top: 11rem;
-} 
+    
+
     
     }
 
 @media screen and (max-width: 42em) {
   .page-header {
     padding: 2rem 0 1rem; }
+    .download_btns {
+	    margin-top: 5rem;
+    }
 .menu {
-	margin-top: 3rem;
+	margin-top: 1rem;
 }    
 }
 
@@ -766,7 +798,7 @@ a {
   margin-top: 2rem;
   margin-bottom: 1rem;
   font-weight: normal;
-  color: #159957; }
+  color: #c3ffdb; }
 .main-content p {
   margin-bottom: 1em; }
 .main-content code {
