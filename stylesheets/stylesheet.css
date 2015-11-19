@@ -1,4 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Rubik:400,400italic|Finger+Paint);
+/*@import url(https://fonts.googleapis.com/css?family=Rubik:400,400italic|Finger+Paint);*/
+@import url(https://fonts.googleapis.com/css?family=Rubik:400,700|Finger+Paint);
 
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
@@ -726,7 +727,7 @@ a {
   .project-tagline {
     font-size: 1rem; } }
 .main-content {
-	word-break: break-all;
+	word-break: break-word;
 }
 .main-content :first-child {
   margin-top: 0; }
@@ -735,8 +736,10 @@ a {
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
   margin-top: 2rem;
   margin-bottom: 1rem;
-  font-weight: normal;
-  color: #c3ffdb; }
+  letter-spacing: .5px;
+  color: #dcc023;
+  text-transform: uppercase;
+  font-weight: 700; }
 .main-content p {
   margin-bottom: 1em; }
 .main-content code {
