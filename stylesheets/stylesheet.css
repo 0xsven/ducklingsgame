@@ -567,10 +567,58 @@ th {
 
 
 
+.main-content .press-logo {
+  max-width: 350px;
+  width: 100%;
+}
 
 
 
+.main-content .press-screenshot {
+  width: 100%;
+}
 
+@media (min-width: 768px) {
+  .main-content .press-screenshot {
+    width: 49.6%;
+  }
+}
+
+footer .menu {
+  text-align: center;
+}
+
+footer .small-text {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 80%; 
+}
+
+
+/* responsive youtube container:; */
+.video-container {
+    position: relative;
+    padding-bottom: 47.5%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .video-container {
+    padding-bottom: 52.65%;
+  }
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
 
 
 
