@@ -54,7 +54,7 @@
     </ul>
 
 
-    <h2>About SNake Oil Studios</h2>
+    <h2>About Snake Oil Studios</h2>
 
     <p>
       Snake Oil Studios is a brand new Games Development Studio in the heart of Berlin. It was founded by Johan Dettmar and Sven Schmidt in October 2015. The endless jumping arcade game Ducklings is the first game of Snake Oil Studios.
@@ -105,16 +105,19 @@
 
      </section>
 
-            <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-48881427-5");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
+     <script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+	try {
+	var pageTracker = _gat._getTracker("UA-48881427-5");
+	pageTracker._trackPageview();
+	} catch(err) {}
+
+	document.getElementById("app_store_main").onclick = function() {
+		ga('send', 'pageview', "/apple");
+	}
+	</script>
 
   </body>
 </html>
