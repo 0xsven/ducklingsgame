@@ -587,7 +587,9 @@ body {
   line-height: 1.5;
   color: #fff;
   background: transparent url(../img/top_bg2.png) 50% 0 no-repeat;
-  background-size: 100% auto;}
+  background-size: 100% auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;}
 .menu {
 	margin-top: 3rem;
 }
