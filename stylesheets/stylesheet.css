@@ -759,7 +759,7 @@ footer .small-text {
   margin-bottom: 0.1rem;
   font-size: 10em;
   font-weight: normal;
-  font-family: 'Finger Paint', cursive;
+  font-family: 'Finger Paint';
   }
 
 @media screen and (min-width: 64em) {
