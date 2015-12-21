@@ -619,6 +619,10 @@ a {
 .download_btn_apple {
 	background-image: url(../img/app_store.svg);
 }
+.download_btn_google {
+	margin-left: 1rem;
+	background-image: url(../img/google_play.png);
+}
 
 
 
@@ -724,7 +728,11 @@ footer .small-text {
     font-size: 0.9rem; }
     .btn + .btn {
       margin-top: 1rem;
-      margin-left: 5%; } }
+      margin-left: 5%; }
+     .download_btn_google {
+	margin-left: 0;
+}
+}
 
 .page-header {
   color: #fff;

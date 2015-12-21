@@ -19,7 +19,7 @@
 
       <div class="download_btns">
         <a id="app_store_main" class="download_btn download_btn_apple" href="https://itunes.apple.com/us/app/ducklings/id993586600?mt=8" target="_blank">Download on the Apple App Store</a>
-        <small>available soon on Android</small>
+        <a id="google_play_main" class="download_btn download_btn_google" href="https://play.google.com/store/apps/details?id=com.hello.ducklings" target="_blank">Download on the Google Play Store</a>
       </div>
     </section>
 
@@ -73,6 +73,9 @@
 
 	document.getElementById("app_store_main").onclick = function() {
 		ga('send', 'pageview', "/apple");
+	}
+	document.getElementById("google_play_main").onclick = function() {
+		ga('send', 'pageview', "/google_play");
 	}
 	</script>
 
