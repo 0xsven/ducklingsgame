@@ -78,6 +78,14 @@
 	document.getElementById("google_play_main").onclick = function() {
 		ga('send', 'pageview', "/google_play");
 	}
+	
+	var userLang = navigator.language || navigator.userLanguage;
+	if(userLang === "ko") {
+		var header = document.getElementsByClassName("project-name");
+		if(header.length) {
+			header[0].innerHTML = "Oh! Duck!";
+		}
+	}
 	</script>
 
   </body>
